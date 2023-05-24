@@ -1,5 +1,5 @@
 const express = require('express');
-//const path = require('path');
+const path = require('path');
 const { ApolloServer } = require('apollo-server-express');
 const db = require('./config/connection');
 //const routes = require('./routes');
@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')));
 }
 
-//app.use(routes);
+app.use(routes);
 
 const startApolloServer = async () => {
   await server.start();
