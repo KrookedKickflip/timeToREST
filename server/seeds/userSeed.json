@@ -1,0 +1,18 @@
+[
+    {
+      "username": "krookedkickflip",
+      "email": "colinnicosia84@yahoo.com",
+      "password": "password123",
+      "savedBooks": [
+        {
+          "authors": ["test"],
+          "description": "test",
+          "bookId": "test",
+          "image": "test",
+          "link": "test",
+          "title": "test"
+        }
+      ]
+    }
+]
+    
